@@ -1,0 +1,23 @@
+{
+    "name": "yosmanyga/domain-parser-bundle",
+    "type": "symfony-bundle",
+    "description": "Integration of the jeremykendall/php-domain-parser with Symfony2",
+    "keywords": ["domain parser"],
+    "homepage": "https://github.com/yosmanyga/YosmanygaDomainParserBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmany Garcia",
+            "email": "yosmanyga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "dev-master",
+        "jeremykendall/php-domain-parser": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Yosmanyga\\DomainParserBundle": "" }
+    },
+    "target-dir": "Yosmanyga/DomainParserBundle"
+}

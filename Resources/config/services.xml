@@ -6,7 +6,7 @@
 
     <parameters>
         <parameter key="yosmanyga_domain_parser.public_suffix_list.class">Pdp\PublicSuffixList</parameter>
-        <parameter key="yosmanyga_domain_parser.domain_parser.class">Pdp\DomainParser</parameter>
+        <parameter key="yosmanyga_domain_parser.domain_parser.class">Pdp\Parser</parameter>
     </parameters>
 
     <services>
